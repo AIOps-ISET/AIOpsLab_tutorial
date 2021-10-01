@@ -21,7 +21,7 @@
 
 实际上，[谷歌学术](https://scholar.google.com/)检索应该作为你检索的重心。高级检索很简单，如下图所示。
 
-![谷歌学术高级检索](../assets/google_scholar_advanced_search.png)
+![谷歌学术高级检索](../assets/googleScholarAdvancedSearch.png)
 
 ## 文献获取
 
