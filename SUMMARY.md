@@ -10,4 +10,5 @@
   * [文献阅读](essay/read.md)
 * [研究选题与计划](research/README.md)
 * [文档与项目](doc_and_project/README.md)
+  * [周报](doc_and_project/weekly.md)
 * [活动](activities/README.md)
