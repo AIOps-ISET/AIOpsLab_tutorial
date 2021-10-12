@@ -9,6 +9,7 @@
   * [文献管理](essay/manage.md)
   * [文献阅读](essay/read.md)
 * [研究选题与计划](research/README.md)
+  * [视频功能测试](research/video_test.md)
 * [文档与项目](doc_and_project/README.md)
   * [周报](doc_and_project/weekly.md)
 * [活动](activities/README.md)
