@@ -9,6 +9,8 @@
   * [文献管理](essay/manage.md)
   * [文献阅读](essay/read.md)
 * [研究选题与计划](research/README.md)
+  * [开题报告](research/proposal.md)
+  * [毕设论文结构](research/graduate_paper.md)
 * [文档与项目](doc_and_project/README.md)
   * [周报](doc_and_project/weekly.md)
 * [活动](activities/README.md)
