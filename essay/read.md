@@ -21,7 +21,9 @@
 | 论文可借鉴内容 |                                                              |
 |      建议      |                                                              |
 
-<!-- TODO: Add the template docs file here -->
+你可以参照下方的 word 文档。
+
+![论文阅读笔记格式](http://8.141.51.55:8000/EssayResources/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0%E6%A0%BC%E5%BC%8F.docx)
 
 ## Markdown
 

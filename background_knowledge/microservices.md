@@ -6,7 +6,7 @@
 
 ## 经典的微服务论文
 
-* 2014年，Martin Fowler和James Lewis发表文章--[《Microservices: A Definition of This New Architectural Term》](https://martinfowler.com/articles/microservices.html)
+* 2014 年，Martin Fowler 和 James Lewis 发表文章--[《Microservices: A Definition of This New Architectural Term》](https://martinfowler.com/articles/microservices.html)
 * [Microservices: Yesterday, Today, and Tomorrow](https://arxiv.org/pdf/1606.04036.pdf)
 
 ## 容器与容器编排
@@ -15,13 +15,13 @@
 
 ### Docker
 
-Docker是如何基于Linux的系统调用建立起来的？  [一个造轮子指南](https://blog.lizzie.io/linux-containers-in-500-loc.html)
+Docker 是如何基于 Linux 的系统调用建立起来的？  [一个造轮子指南](https://blog.lizzie.io/linux-containers-in-500-loc.html)
 
 为什么需要容器？容器的作用在哪？它是如何工作的？
 
 推荐阅读：
 
-* Docker的[官方网站](https://www.docker.com/)。
+* Docker 的[官方网站](https://www.docker.com/)。
 * [Docker In Action](https://book.douban.com/subject/34466033/)。
 
 ### Kubernetes

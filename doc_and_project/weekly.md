@@ -13,7 +13,7 @@
 * 个人研究及调研，学术论文撰写，论文阅读，资料学习等放在研究工作中。
 * 代码开发，架构设计等放在工程进展中。
 * 项目申报，结题，报告撰写，材料准备等放在项目工作中。
-* 做PPT，设计海报等实验室任务或者私活放在其他里。
+* 做 PPT，设计海报等实验室任务或者私活放在其他里。
 * 每人至少有一个研究计划。
 * 添加附件的超链接（使用相对地址）。
 
@@ -28,11 +28,11 @@
 * 检查周报内容的说法是否准确，是否合理。
 * 是否需要合并人在对全组工作有了解的情况下酌情删减（有些人的东西根本不能放）、增加（有些人干了活没写让他补）、修改（有些人话说不清）或总结（有些事两个年级都有写)。
 
-## 使用markdown写文档
+## 使用 markdown 写文档
 
-最后周报的要求需要交word文档，word文档是二进制文件，不好通过`git`进行管理，为了方便于使用Github进行管理，提高效率，我们通过[Pandoc](https://github.com/jgm/pandoc)将markdown转化为word。
+最后周报的要求需要交 word 文档，word 文档是二进制文件，不好通过`git`进行管理，为了方便于使用 Github 进行管理，提高效率，我们通过[Pandoc](https://github.com/jgm/pandoc)将 markdown 转化为 word。
 
-我们通过建立了模板文件`custom-reference.docx`，使得markdown文档能够直接转换为ISE组原有的周报格式，从而使得可以通过Github高效地实现分布式操作。你可以参考我们的[Github文档](https://github.com/shejialuo/ISE21_Weekly)。
+我们通过建立了模板文件`custom-reference.docx`，使得 markdown 文档能够直接转换为 ISE 组原有的周报格式，从而使得可以通过 Github 高效地实现分布式操作。你可以参考我们的[Github 文档](https://github.com/shejialuo/ISE21_Weekly)。
 
 {% hint style="info" %}
 实际上，我们鼓励你想办法来优化实验室的工作流程，或许在最开始的时候会消耗比较多的精力，但是却能极大地提高以后的工作效率。
