@@ -36,7 +36,9 @@
 
 最后周报的要求需要交 word 文档，word 文档是二进制文件，不好通过`git`进行管理，为了方便于使用 Github 进行管理，提高效率，我们通过[Pandoc](https://github.com/jgm/pandoc)将 markdown 转化为 word。
 
-我们通过建立了模板文件`custom-reference.docx`，使得 markdown 文档能够直接转换为 ISE 组原有的周报格式，从而使得可以通过 Github 高效地实现分布式操作。你可以参考我们的[Github 文档](https://github.com/shejialuo/ISE21_Weekly)。
+我们通过建立了模板文件`custom-reference.docx`，使得 markdown 文档能够直接转换为 ISE 组原有的周报格式，从而使得可以通过 Github 高效地实现分布式操作。你可以参考我们的[Github 文档](https://github.com/IseTeam/ISE_Weekly)。
+
+同时我们通过 GitHub Action 完成了周报的进一步自动化。见[Commit](https://github.com/IseTeam/ISE_Weekly/commit/e2222fb06eba33b2bad6d888a6509830a9fabd35)
 
 {% hint style="info" %}
 实际上，我们鼓励你想办法来优化实验室的工作流程，或许在最开始的时候会消耗比较多的精力，但是却能极大地提高以后的工作效率。

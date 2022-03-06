@@ -4,8 +4,8 @@
 
 ![XiDian](assets/xidian_logo.jpg)
 
-本文档内容托管于[GitHub](https://github.com/shejialuo/ISELab_tutorial)。
+本文档内容托管于[GitHub](https://github.com/IseTeam/ISELab_tutorial)。
 
-GitBook 在线阅读地址为： [ISELab Tutorial](https://shejialuo.gitbook.io/iselab-tutorial/)。
+GitBook 在线阅读地址为： [ISELab Tutorial](https://iseteam.gitbook.io/iselab-tutorial/)。
 
 本文档使用[lint-md](https://github.com/lint-md/lint-md)进行中文 MarkDown 文件的格式检查， 务必在提交 Pr 之前确保格式的正确。
