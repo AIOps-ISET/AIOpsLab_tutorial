@@ -2,12 +2,17 @@
 
 ## 基本认识
 
-一开始需要建立对微服务的基本了解，知道它从哪里来，要到哪里去：[《凤凰架构》](https://icyfenix.cn/summary/)，其中“演进中的架构”和“不可变基础设施”章节详细的介绍了微服务与云原生，“分布式的基石”则介绍了建立分布式系统需要克服的困难，而它们也是许多微服务研究方向的来源，同时有简单的动手实践，理论与实践结合。
+一开始需要建立对微服务的基本了解，知道它从哪里来，要到哪里去：**凤凰架构**书中，其中“演进中的架构”和“不可变基础设施”章节详细的介绍了微服务与云原生，“分布式的基石”则介绍了建立分布式系统需要克服的困难，而它们也是许多微服务研究方向的来源，同时有简单的动手实践，理论与实践结合。我们希望它通过通俗易懂的言语让你快速地认识什么是微服务
+
+{% embed url="https://icyfenix.cn/summary/" %}
 
 ## 经典的微服务论文
 
-* 2014 年，Martin Fowler 和 James Lewis 发表文章--[《Microservices: A Definition of This New Architectural Term》](https://martinfowler.com/articles/microservices.html)
-* [Microservices: Yesterday, Today, and Tomorrow](https://arxiv.org/pdf/1606.04036.pdf)
+* 2014 年，Martin Fowler 和 James Lewis 发表文章Microservices: A Definition of This New Architectural Term使得学术界开始对微服务架构进行研究。
+* Microservices: Yesterday, Today, and Tomorrow：微服务的顶级综述，描述了微服务架构的过去、现在和未来帮助你从宏观上认识微服务
+
+{% embed url="https://martinfowler.com/articles/microservices.html" %}
+{% embed url="https://arxiv.org/pdf/1606.04036.pdf" %}
 
 ## 容器与容器编排
 
