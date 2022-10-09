@@ -58,15 +58,24 @@ Docker是目前最广泛使用的容器软件。首先你应该明白Docker基�
 
 ### Kubernetes
 
-Kubernetes 已经成为事实上的容器编排标准，有必要了解它的工作方式和部分工作原理。
+容器已经让我们的生活变得更加的轻松了，然而当我们部署系统的时候，我们应该怎么去管理容器呢？如果我们的系统需要很多个容器呢？如何对容器本身实现更加细粒度的管理呢？这就是Kubernetes的作用。目前Kubernetes 已经成为事实上的容器编排标准，我们有必要了解它的工作方式和部分工作原理。
 
-推荐阅读：
+我们仍然推荐Kubernetes in action，当你学完前10章你应该就会对Kubernetes有个了解，能够使用Kubernetes进行容器的编排。
 
-* 《Kubernetes in action》，初步的使用，足够对付大部分的应用场景。
-* 张勇---深入理解 Kubernetes (一个专栏课程，追求深入理解的话可以看)
-* 官方文档，实时查阅
-* ...
+{% embed url="https://book.douban.com/subject/30418855/" %}
 
-### istio
+由于Kubernetes的复杂性，很少有教程教我们如何自己造一个Kubernetes，但是我们往往想知其所以然，所以如果你想要进阶你可以阅读Kubernetes源码剖析。这本书尽管描述的不详细，但是它能够给你带来宏观的认识。由于Kubernetes的代码量很大，属于相当复杂的开源项目，我们觉得这本书也只能做到这儿了。
 
-<!-- TODO: Add something about istio -->
+{% embed url="https://book.douban.com/subject/35100082/" %}
+
+### Istio
+
+事物总是在不断发展的。为了让微服务运维更加顺畅，服务网格的概念就此出现，你可以参考以下的文章去理解服务网格的概念：
+
+{% embed url="https://jimmysong.io/blog/what-is-a-service-mesh/" %}
+
+{% embed url="https://www.redhat.com/zh/topics/microservices/what-is-a-service-mesh" %}
+
+Istio就是目前微服务领域最热门的服务网格。Istio的书籍仍然有很多，但可惜的是istio in action并没有中文版，我们很推荐in action的书籍。因此，希望你可以阅读英文版进行学习。
+
+{% embed url="https://book.douban.com/subject/33406485/" %}
