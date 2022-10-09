@@ -14,20 +14,47 @@
 {% embed url="https://martinfowler.com/articles/microservices.html" %}
 {% embed url="https://arxiv.org/pdf/1606.04036.pdf" %}
 
-## 容器与容器编排
+## 容器、容器编排与服务治理
 
-在操作系统当中，首先了解到的是虚拟化，而虚拟化技术和容器技术的区别在哪？
+容器与容器编排是微服务运维的核心，目前学术界和工业界对于微服务运维的研究都集中于这三个基本的工具：
+
+* Docker
+* Kubernetes
+* Istio
+
+### 容器技术与虚拟化
+
+虚拟化技术和容器技术的区别在哪？这是一个关键的问题，我们推荐下面的这些文章供你阅读，相信你对这两者之间的认识会得到加深。
+
+{% embed url="https://www.atlassian.com/microservices/cloud-computing/containers-vs-vms" %}
+{% embed url="https://www.ibm.com/cloud/blog/containers-vs-vms" %}
 
 ### Docker
 
-Docker 是如何基于 Linux 的系统调用建立起来的？  [一个造轮子指南](https://blog.lizzie.io/linux-containers-in-500-loc.html)
+Docker是目前最广泛使用的容器软件。首先你应该明白Docker基本的原理，如何把一个应用程序运行在Docker中，以及Docker是如何为这个应用程序提供一系列的隔离，保证每个服务之间的独立性，同时又使得能够容器能够通信？我们推荐Docker In Action这本书作为入门。
 
-为什么需要容器？容器的作用在哪？它是如何工作的？
+{% embed url="https://book.douban.com/subject/34466033/" %}
 
-推荐阅读：
+然而，Docker到底内部是如何实现的呢？当你理解了Docker的工作机制，你可能会思考容器是如何基于Linux提供的一系列机制建立起来的。我们推荐一个很简单的造轮子指南，你会通过不超过500行的C语言代码理解Docker基本的工作机制。
 
-* Docker 的[官方网站](https://www.docker.com/)。
-* [Docker In Action](https://book.douban.com/subject/34466033/)。
+{% embed url="https://blog.lizzie.io/linux-containers-in-500-loc.html" %}
+
+实际上，有许多优秀的教程教你如何写一个基本的Docker，rubber-docker提供了一系列的教程让你思考如何写一个容器，比起上面的C代码，会给你带来更多的思考和实践。
+
+{% embed url="https://github.com/Fewbytes/rubber-docker" %}
+
+同时，小组成员有实践过该项目的，你可以参考小组成员的GitHub去搭建环境。
+
+{% embed url="https://github.com/shejialuo/rubber-docker" %}
+
+如果你仍然不满足，想明白一个复杂的容器应该要怎么写，我们推荐《自己动手写Docker》。
+
+{% embed url="https://book.douban.com/subject/27082348/" %}
+
+同时小组成员已经动手进行过了实践，你可以参考他们的GitHub搭建环境。
+
+{% embed url="https://github.com/shejialuo/miniDocker/" %}
+{% embed url="https://github.com/North-C/GoPractice/tree/main/dockerBySelf" %}
 
 ### Kubernetes
 
