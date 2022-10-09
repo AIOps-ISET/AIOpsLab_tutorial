@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [导论](README.md)
 * [基础与背景知识](background_knowledge/README.md)
   * [专业基础](background_knowledge/basic.md)
   * [微服务与云原生](background_knowledge/microservices.md)
@@ -8,7 +8,7 @@
   * [知识图谱相关](background_knowledge/knowledgeGraph/README.md)
     * [知识图谱基础概念了解](background_knowledge/knowledgeGraph/基础概念了解.md)
     * [知识图谱相关技术](background_knowledge/knowledgeGraph/相关编程技术.md)
-    * [知识图谱研究方向](background_knowledge/knowledgeGraph/研究方向.md) 
+    * [知识图谱研究方向](background_knowledge/knowledgeGraph/研究方向.md)
 * [文献搜索、管理及阅读](essay/README.md)
   * [文献搜索](essay/search.md)
   * [文献管理](essay/manage.md)
