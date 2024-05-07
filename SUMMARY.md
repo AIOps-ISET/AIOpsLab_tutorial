@@ -20,6 +20,7 @@
       * [知识获取](background_knowledge/knowledgeGraph/directions/知识获取.md)
       * [时序知识图谱](background_knowledge/knowledgeGraph/directions/时序知识图谱.md)
       * [知识图谱应用](background_knowledge/knowledgeGraph/directions/知识图谱应用.md)
+  * [硬件基础知识](background_knowledge/hardware/README.md)
 * [文献搜索、管理及阅读](essay/README.md)
   * [文献搜索](essay/search.md)
   * [文献管理](essay/manage.md)
