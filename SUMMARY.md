@@ -34,4 +34,3 @@
     * [专利申请流程](doc_and_project/patent/request_patent.md)
   * [预借发票流程](doc_and_project/invoice.md)
   * [成果整理](doc_and_project/results.md)
-* [活动](activities/README.md)
