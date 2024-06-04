@@ -11,6 +11,8 @@
     * [Linux内核知识](background_knowledge/LinuxKernel/LinuxKernel_knowledge.md)
     * [eBPF技术](background_knowledge/LinuxKernel/eBPF_technology.md)
   * [大模型基础知识](background_knowledge/LLM/README.md)
+    * [大模型研究方向](background_knowledge/LLM/direction.md)
+    * [大模型核心技术使用原理介绍](background_knowledge/LLM/method.md)
   * [微服务故障检测](background_knowledge/faultAnalysis/README.md)
     * [故障检测与根因定位](background_knowledge/faultAnalysis/Anomaly_detection_and_root_cause_localization.md)
   * [知识图谱相关](background_knowledge/knowledgeGraph/README.md)
