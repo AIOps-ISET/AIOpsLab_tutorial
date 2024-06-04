@@ -10,6 +10,7 @@
     * [eBPF技术](background_knowledge/LinuxKernel/eBPF_technology.md)
   * [大模型基础知识](background_knowledge/LLM/README.md)
   * [微服务故障检测](background_knowledge/faultAnalysis/README.md)
+    * [故障检测与根因定位](background_knowledge/faultAnalysis/Anomaly detection and root cause localization.md)
   * [知识图谱相关](background_knowledge/knowledgeGraph/README.md)
     * [基础知识](background_knowledge/knowledgeGraph/基础概念了解.md)
     * [相关技术](background_knowledge/knowledgeGraph/相关编程技术.md)
