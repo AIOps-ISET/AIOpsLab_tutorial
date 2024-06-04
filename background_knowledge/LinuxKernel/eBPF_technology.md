@@ -10,13 +10,13 @@
 
 * [Articles (cn-zh)](https://arthurchiao.art/articles-zh/)
 
-* [https://ebpf.io](https://ebpf.io/)，最全BPF学习资源网站，主要由Cilium团队维护，上面会及时更新BPF技术的文档和视频。⭐
+* [https://ebpf.io](https://ebpf.io/)，最全BPF学习资源网站，主要由Cilium团队维护，上面会及时更新BPF技术的文档和视频。
   
-* https://lwn.net/Kernel/Index/#Berkeley_Packet_Filter ，lwn是学习Linux内核技术的最好的网站，这个BPF分类文章集合，记录了很多BPF里程碑事件的前前后后，既学会了知识，又明白了背景。⭐
+* https://lwn.net/Kernel/Index/#Berkeley_Packet_Filter ，lwn是学习Linux内核技术的最好的网站，这个BPF分类文章集合，记录了很多BPF里程碑事件的前前后后，既学会了知识，又明白了背景。
   
-* https://cilium.readthedocs.io/en/stable/bpf/，Cilium提供的BPF文档，是我看到过的最具实战价值的BPF手册，值得好好阅读。⭐
+* https://cilium.readthedocs.io/en/stable/bpf/，Cilium提供的BPF文档，是我看到过的最具实战价值的BPF手册，值得好好阅读。
  
-* https://www.kernel.org/doc/html/latest/bpf/bpf_devel_QA.html，开发BPF必读Q&A，里面是维护BPF内核代码的大佬给出的代码开发建议，读了能明白社区是如何运作BPF的。 ⭐
+* https://www.kernel.org/doc/html/latest/bpf/bpf_devel_QA.html，开发BPF必读Q&A，里面是维护BPF内核代码的大佬给出的代码开发建议，读了能明白社区是如何运作BPF的。
 
 ## bpf相关的代码仓库
 
@@ -49,38 +49,39 @@
 
 * [《Linux Observability with BPF》](https://www.oreilly.com/library/view/linux-observability-with/9781492050193/) 作者David Calavera和Lorenzo Fontana, 这本书篇幅不长，是来自sysdig的两位大佬写的BPF手册书，推荐入门阅读
   
-* [《Linux内核观测技术BPF》](https://item.jd.com/12939760.html) 是最近刚出版的第一本BPF中文书籍，为上面英文书的翻译版本，由范彬和狄卫华两位翻译。 ⭐
+* [《Linux内核观测技术BPF》](https://item.jd.com/12939760.html) 是最近刚出版的第一本BPF中文书籍，为上面英文书的翻译版本，由范彬和狄卫华两位翻译。 
   
-* [《BPF Performance Tools》](http://www.brendangregg.com/bpf-performance-tools-book.html) 这是Brendan Gregg大神对于BPF技术如何做系统性能优化的一本集大成者的秘籍，BPF学习者必备。⭐
+* [《BPF Performance Tools》](http://www.brendangregg.com/bpf-performance-tools-book.html) 这是Brendan Gregg大神对于BPF技术如何做系统性能优化的一本集大成者的秘籍，BPF学习者必备。
   
 * [《Systems Performance: Enterprise and the Cloud, 2nd Edition》](http://www.brendangregg.com/systems-performance-2nd-edition-book.html) 这是Brendan Gregg大神系统优化书籍的第二版，篇幅较长，但是值得一啃。
  
-* 最新的书籍：《**Learning eBPF**》Liz Rice，专注于容器安全等领域的大牛。⭐
+* 最新的书籍：《**Learning eBPF**》Liz Rice，专注于容器安全等领域的大牛。
 
 ## BPF技术分享
 
-1. 最开始提到的最近两年的Kubecon上的eBPF相关Session下面是最新的几个session详细链接：
-    - 绕过conntrack，使用eBPF增强 IPVS优化k8s网络性能：https://v.qq.com/x/page/s3137ehoq8i.html
+最开始提到的最近两年的Kubecon上的eBPF相关Session，下面是最新的几个session详细链接与会议的说明：
+
+* 绕过conntrack，使用eBPF增强 IPVS优化k8s网络性能：https://v.qq.com/x/page/s3137ehoq8i.html
   
-    - 深入了解服务网格数据平面性能和调优：https://v.qq.com/x/page/v3137ax6zss.html
+* 深入了解服务网格数据平面性能和调优：https://v.qq.com/x/page/v3137ax6zss.html
   
-    - Kubernetes中用于混沌与跟踪的BPF：https://v.qq.com/x/page/f3130lpe0iv.html
+* Kubernetes中用于混沌与跟踪的BPF：https://v.qq.com/x/page/f3130lpe0iv.html
   
-    - https://kccnceu20.sched.com/event/ZejN/tutorial-using-bpf-in-cloud-native-environments-alban-crequy-marga-manterola-kinvolk
+* https://kccnceu20.sched.com/event/ZejN/tutorial-using-bpf-in-cloud-native-environments-alban-crequy-marga-manterola-kinvolk
   
-    - https://kccnceu20.sched.com/event/Zeoz/hubble-ebpf-based-observability-for-kubernetes-sebastian-wicki-isovalent
+* https://kccnceu20.sched.com/event/Zeoz/hubble-ebpf-based-observability-for-kubernetes-sebastian-wicki-isovalent
   
-    - https://kccnceu20.sched.com/event/Zexb/designing-a-grpc-interface-for-kernel-tracing-with-ebpf-leonardo-di-donato-sysdig
+* https://kccnceu20.sched.com/event/Zexb/designing-a-grpc-interface-for-kernel-tracing-with-ebpf-leonardo-di-donato-sysdig
   
-    - https://kccnceu20.sched.com/event/ZemQ/ebpf-and-kubernetes-little-helper-minions-for-scaling-microservices-daniel-borkmann-cilium
+* https://kccnceu20.sched.com/event/ZemQ/ebpf-and-kubernetes-little-helper-minions-for-scaling-microservices-daniel-borkmann-cilium
   
-    - [https://kccnceu20.sched.com/event/Zewd/intro-to-falco-intrusion-detection-for-containers-shane-lawrence-shopify](https://kccnceu20.sched.com/event/Zewd/intro-to-falco-intrusion-detection-for-containers-shane-lawrence-shopify%20)
+* https://kccnceu20.sched.com/event/Zewd/intro-to-falco-intrusion-detection-for-containers-shane-lawrence-shopify%20
   
-    - https://kccnceu20.sched.com/event/ZetL/seccomp-security-profiles-and-you-a-practical-guide-duffie-cooley-vmware
+* https://kccnceu20.sched.com/event/ZetL/seccomp-security-profiles-and-you-a-practical-guide-duffie-cooley-vmware
   
-    - https://kccnceu20.sched.com/event/ZeqL/k8s-in-the-datacenter-integrating-with-preexisting-bare-metal-environments-max-stritzinger-bloomberg
+* https://kccnceu20.sched.com/event/ZeqL/k8s-in-the-datacenter-integrating-with-preexisting-bare-metal-environments-max-stritzinger-bloomberg
   
-1. LPC 2020 Networking and BPF Summit，这个会刚结束不久，可以说是BPF技术的专题会，上面有非常多的eBPF实践案例以及未来可能增加的功能列表，比如BPF Map是否能resize，而不是一上来就定义好大小。
+* LPC 2020 Networking and BPF Summit，这个会刚结束不久，可以说是BPF技术的专题会，上面有非常多的eBPF实践案例以及未来可能增加的功能列表，比如BPF Map是否能resize，而不是一上来就定义好大小。
 
 ## 使用BPF技术的项目
 
@@ -100,4 +101,4 @@
 * 网易轻舟做系统检测和网络优化
 * 字节跳动做高性能网络ACL管理
 
--- 文档材料源自刘雨晴学长
+{% hint style="info" %} 文档材料源自[刘雨晴](https://github.com/North-C)学长 {% endhint %}  
