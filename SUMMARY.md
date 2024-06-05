@@ -6,6 +6,8 @@
     * [专业基础](background_knowledge/microservices/basic.md)
     * [微服务与云原生](background_knowledge/microservices/microservices.md)
   * [操作系统与Linux内核](background_knowledge/LinuxKernel/README.md)
+    * [操作系统基础知识](background_knowledge/LinuxKernel/os_basic.md)
+    * [Linux基础知识](background_knowledge/LinuxKernel/linux_basic.md)
     * [Linux内核知识](background_knowledge/LinuxKernel/LinuxKernel_knowledge.md)
     * [eBPF技术](background_knowledge/LinuxKernel/eBPF_technology.md)
   * [大模型基础知识](background_knowledge/LLM/README.md)
